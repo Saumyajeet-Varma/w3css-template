@@ -180,7 +180,7 @@ main {
 
 .aboutContainer .aboutCard img {
     width: 100%;
-    filter: grayscale(5);
+    filter: grayscale(0.7);
 }
 
 .aboutCard .info {
@@ -204,6 +204,7 @@ main {
     padding: 10px;
     font-size: 16px;
     border: 0;
+    cursor: pointer;
 }
 
 .contactText {
@@ -227,6 +228,7 @@ form button {
     padding: 7px 15px;
     border: 0;
     margin: 20px 0px 40px 0px;
+    cursor: pointer;
 }
 
 form button:hover {
